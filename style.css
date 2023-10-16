@@ -1,0 +1,25 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px; 
+    font-size: 20px;
+}
+body {
+    margin: 0;
+}
+.topnav a:hover{
+    background-color:white;
+    color:black;
+}
+.topnav a.active {
+    background-color: crimson;
+    color: black;
+}
